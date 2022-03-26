@@ -68,6 +68,10 @@
       img {
         border-radius: 15px;
       }
+      .trasparent{
+        border: none;
+        background-color: trasparent;
+      }
     </style>
   </head>
   <body oncontextmenu="return false" class="snippet-body">
@@ -75,8 +79,8 @@
       <div class="card mt-5 px-3 py-4">
         <div class="d-flex flex-row justify-content-around">
           <div class="mpesa"><span>Mpesa </span></div>
-          <div><span>Paypal</span></div>
-          <div><span>Card</span></div>
+          <div><span onclick="window.alert('Paypal currently unavalable')">Paypal</span></div>
+          <div><span onclick="window.alert('Card currently unavalable')">Card</span></div>
         </div>
         <div class="media mt-4 pl-2">
           <img src="./images/1200px-M-PESA_LOGO-01.svg.png" class="mr-3" height="75" />
